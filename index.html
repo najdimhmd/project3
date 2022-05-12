@@ -3,50 +3,67 @@
     <head>
         <title>Mhammad Suhayl Najdi</title>
 		<style>
-            .flex1 {
+            .flex1>div {
+				flex-basis: 30%;
+				background-color: antiquewhite;
+				margin: 50%;
+				padding: 10%;
+				font-size: 30px;
                 display: flex;
 				size-adjust: auto;
-                justify-content: center;
-                background-color: green;
+				color: black;
+				width: 100%;
+              
+            .flex2 >div{
+				flex-basis: 30%;
+				background-color: antiquewhite;
+				margin: 50%;
+				padding: 10%;
+				font-size: 30px;
+                display: flex;
+				size-adjust: auto;
+				color: black;
+				width: 100%;
             }
               
-            .flex2 {
+            .flex3 >div{
+				flex-basis: 30%;
+				background-color: antiquewhite;
+				margin: 50%;
+				padding: 10%;
+				font-size: 30px;
                 display: flex;
 				size-adjust: auto;
-                justify-content: space-around;
-                background-color: green;
+				color: black;
+				width: 100%;
             }
               
-            .flex3 {
+            .flex4>div {
+				flex-basis: 30%;
+				background-color: antiquewhite;
+				margin: 50%;
+				padding: 10%;
+				font-size: 30px;
                 display: flex;
 				size-adjust: auto;
-                justify-content: space-between;
-                background-color: green;
+				color: black;
+				width: 100%;
             }
               
-            .flex4 {
-                display: flex;
-				size-adjust: auto;
-                justify-content: flex-start;
-                background-color: green;
-            }
-              
-            .flex5 {
-                display: flex;
-				size-adjust: auto;
-                justify-content: flex-end;
-                background-color: green;
-            }
+
 			
               
-            .flex-items {
-                background-color: #f4f4f4;
+            .flex-items>div {
+				flex-direction: column;
+				flex-basis: 30%;
+				background-color: antiquewhite;
+				margin: 50%;
+				padding: 10%;
+				font-size: 30px;
+                display: flex;
 				size-adjust: auto;
-                width: 100px;
-                height:50px;
-                margin: 10px;
-                text-align: center;
-                font-size: 40px;
+				color: black;
+				width: 100%;
             }
             h2 {
                 text-align:center;
@@ -56,38 +73,50 @@
                 text-align:center;
                 color:#009900;
                 font-weight:bold;
-            }                       
+            }
+			.box1{
+				color: #009900;
+				display: flex;
+			}
+			.box1 div{
+				border: 1px;
+				padding: 10px;
+
+			} 
+	               
         </style>
     </head>
     <body>
         <div class = "Name">Mhammad Najdi</div>
 		<img class="profile" src="assets\profile.jpeg" width="20%" length="20%">
-        <h2>Berut , Lebanon</h2>
+        <h2>Beirut , Lebanon</h2>
         <b>Education </b>
         <div class="flex1">
-            <div class="flex-items">Bachelor in science of electronics and computing</div>
+            <div></div>Bachelor in science of electronics and computing</div>
         </div>
         <br>
-        <b>Programming langueges:</b>
-        <div class="flex2">
-		<ul>	
-            <li><div class="flex-items">C++</div></li>
-            <li><div class="flex-items">Python</div></li>
-            <li><div class="flex-items">Html</div></li>
-		</ul> 
-        </div>
+        <div class="box1">
+       		<div class="flex2">
+				<h2>Programming languages:</h2>   
+				<ul>	
+            		<li>C++</li>
+            		<li>Python</li>
+            		<li>Html</li>
+				</ul> 
+        	</div>
+		</div>	
         <br>
         <b>Awards:</b>
         <div class="flex3">
-            <div class="flex-items">Foundations of computer science by <img src="assets\SE.png" length="5%" width="5%"></div>
+            <div >Foundations of computer science by <img src="assets\SE.png" length="5%" width="5%"></div>
         </div>
         <br>
         <b>Projects</b>
         <div class="flex4">
 			<ul>
-            <li><div class="flex-items">School Grading system</div></li>
-            <li><div class="flex-items">Credit Card validation system</div></li>
-            <li><div class="flex-items">Website Scraping</div></li>
+            <li><div >School Grading system</div></li>
+            <li><div >Credit Card validation system</div></li>
+            <li><div >Website Scraping</div></li>
         </ul> 
 		</div>
 
